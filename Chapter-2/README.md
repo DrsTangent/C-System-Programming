@@ -1,0 +1,1 @@
+Revising some basics of C++ (not in other languages)
