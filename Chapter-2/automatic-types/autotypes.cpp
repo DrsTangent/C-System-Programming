@@ -13,5 +13,13 @@ int main(){
     for (auto iter = test.begin(); iter != test.end(); iter++){
         std::cout << *iter;
     }
+
+    int a = 1;
+    float b = 3.33;
+
+    decltype(a) c = a+b;
+
+    std::cout << "value of c should be int: " << c;
+    
     return 0;
 }
